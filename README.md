@@ -124,11 +124,11 @@ output = [char for char in string]
 print(output)
 </code>
 </pre>
-<pre>
-<code>
 Q8. Write a python program to check whether a given number is Palindrome or not using a while loop.<br/>
 #a python program to check whether a given number is Palindrome or not using a while loop.
 num=int(input("Enter any number:"))
+<pre>
+<code>
 temp=num
 rev=0
 while(num>0):
