@@ -115,8 +115,18 @@ fibonacci(10)
 </code>
 </pre>
 Q7. Write a List Comprehension to iterate through the given string: ‘pwskills’. Expected output: ['p', 'w', 's', 'k', 'i', 'l', 'l', 's']<br/>
+Ans:
 <pre>
 <code>
+#a List Comprehension to iterate through the given string: ‘pwskills’.
+string = 'pwskills'
+output = [char for char in string]
+print(output)
+</code>
+</pre>
+<pre>
+<code>
+Q8. Write a python program to check whether a given number is Palindrome or not using a while loop.<br/>
 #a python program to check whether a given number is Palindrome or not using a while loop.
 num=int(input("Enter any number:"))
 temp=num
