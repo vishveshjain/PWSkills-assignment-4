@@ -125,10 +125,10 @@ print(output)
 </code>
 </pre>
 Q8. Write a python program to check whether a given number is Palindrome or not using a while loop.<br/>
-#a python program to check whether a given number is Palindrome or not using a while loop.
-num=int(input("Enter any number:"))
 <pre>
 <code>
+#a python program to check whether a given number is Palindrome or not using a while loop.
+num=int(input("Enter any number:"))
 temp=num
 rev=0
 while(num>0):
