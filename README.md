@@ -128,17 +128,20 @@ Q8. Write a python program to check whether a given number is Palindrome or not 
 <pre>
 <code>
 #a python program to check whether a given number is Palindrome or not using a while loop.
-num=int(input("Enter any number:"))
-temp=num
-rev=0
-while(num>0):
-    dig=num%10
-    rev=rev*10+dig
-    num=num//10
-if(temp==rev):
-    print("The {0} number is palindrome!".format(temp))
+n = int(input("Please give a number : "))
+def reverse(num):
+    if num<10:
+      return num 
+    else:
+      return int(str(num%10) + str(reverse(num//10)))
+def isPalindrome(num):
+    if num == reverse(num):
+        return 1
+    return 0
+if isPalindrome(n) == 1:
+    print("Given number is a palindrome")
 else:
-    print("Not a palindrome!")
+    print("Given number is a not palindrome") 
 </code>
 </pre>
 Q9. Write a code to print odd numbers from 1 to 100 using list comprehension.<br/>
